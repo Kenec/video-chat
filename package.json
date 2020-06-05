@@ -1,0 +1,30 @@
+{
+  "name": "video-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenec/video-chat.git"
+  },
+  "author": "Kenechukwu Nnamani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kenec/video-chat/issues"
+  },
+  "homepage": "https://github.com/Kenec/video-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-peer": "^9.7.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "watchify": "^3.11.1"
+  }
+}
